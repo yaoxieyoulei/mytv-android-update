@@ -1,9 +1,9 @@
 {
-    "url": "https://api.github.com/repos/yaoxieyoulei/mytv-android/releases/168144635",
-    "assets_url": "https://api.github.com/repos/yaoxieyoulei/mytv-android/releases/168144635/assets",
-    "upload_url": "https://uploads.github.com/repos/yaoxieyoulei/mytv-android/releases/168144635/assets{?name,label}",
-    "html_url": "https://github.com/yaoxieyoulei/mytv-android/releases/tag/v1.4.3",
-    "id": 168144635,
+    "url": "https://api.github.com/repos/yaoxieyoulei/mytv-android/releases/167465428",
+    "assets_url": "https://api.github.com/repos/yaoxieyoulei/mytv-android/releases/167465428/assets",
+    "upload_url": "https://uploads.github.com/repos/yaoxieyoulei/mytv-android/releases/167465428/assets{?name,label}",
+    "html_url": "https://github.com/yaoxieyoulei/mytv-android/releases/tag/tv2.0.0",
+    "id": 167465428,
     "author": {
         "login": "yaoxieyoulei",
         "id": 22571211,
@@ -24,21 +24,21 @@
         "type": "User",
         "site_admin": false
     },
-    "node_id": "RE_kwDOLsXxyc4KBa77",
-    "tag_name": "v1.4.3",
-    "target_commitish": "main",
-    "name": "v1.4.3",
+    "node_id": "RE_kwDOLsXxyc4J-1HU",
+    "tag_name": "v2.0.0",
+    "target_commitish": "next",
+    "name": "v2.0.0",
     "draft": false,
-    "prerelease": false,
-    "created_at": "2024-08-01T01:14:25Z",
-    "published_at": "2024-08-01T01:20:02Z",
+    "prerelease": true,
+    "created_at": "2024-08-01T06:06:01Z",
+    "published_at": "2024-08-01T06:08:54Z",
     "assets": [
         {
-            "url": "https://api.github.com/repos/yaoxieyoulei/mytv-android/releases/assets/183101337",
-            "id": 183101337,
-            "node_id": "RA_kwDOLsXxyc4K6eeZ",
-            "name": "mytv-android-1.4.3.apk",
-            "label": "",
+            "url": "https://api.github.com/repos/yaoxieyoulei/mytv-android/releases/assets/183146042",
+            "id": 183146042,
+            "node_id": "RA_kwDOLsXxyc4K6pY6",
+            "name": "mytv-android-tv-2.0.0.apk",
+            "label": null,
             "uploader": {
                 "login": "yaoxieyoulei",
                 "id": 22571211,
@@ -61,26 +61,14 @@
             },
             "content_type": "application/vnd.android.package-archive",
             "state": "uploaded",
-            "size": 3856355,
-            "download_count": 519,
-            "created_at": "2024-08-01T01:20:03Z",
-            "updated_at": "2024-08-01T01:20:03Z",
-            "browser_download_url": "https://github.com/yaoxieyoulei/mytv-android/releases/download/v1.4.3/mytv-android-1.4.3.apk"
+            "size": 4103088,
+            "download_count": 0,
+            "created_at": "2024-08-01T06:08:35Z",
+            "updated_at": "2024-08-01T06:08:38Z",
+            "browser_download_url": "https://github.com/yaoxieyoulei/mytv-android/releases/download/tv2.0.0/mytv-android-tv-2.0.0.apk"
         }
     ],
-    "tarball_url": "https://api.github.com/repos/yaoxieyoulei/mytv-android/tarball/v1.4.3",
-    "zipball_url": "https://api.github.com/repos/yaoxieyoulei/mytv-android/zipball/v1.4.3",
-    "body": "### 新增\r\n\r\n- 新增超时换源、断线重连\r\n- 支持rtsp\r\n- 新增全局画面比例\r\n\r\n### 优化\r\n\r\n- 默认禁用画中画\r\n\r\n### 修复\r\n\r\n- 尝试修复手机端设置界面直接退出应用",
-    "reactions": {
-        "url": "https://api.github.com/repos/yaoxieyoulei/mytv-android/releases/168144635/reactions",
-        "total_count": 2,
-        "+1": 2,
-        "-1": 0,
-        "laugh": 0,
-        "hooray": 0,
-        "confused": 0,
-        "heart": 0,
-        "rocket": 0,
-        "eyes": 0
-    }
+    "tarball_url": "https://api.github.com/repos/yaoxieyoulei/mytv-android/tarball/tv2.0.0",
+    "zipball_url": "https://api.github.com/repos/yaoxieyoulei/mytv-android/zipball/tv2.0.0",
+    "body": "### 新增\r\n\r\n- 频道分组管理\r\n- 直播源混合模式（当所有线路无播放时，降级为webview网页播放）\r\n- 节目预约\r\n- 全局画面比例\r\n- 支持rtsp链接\r\n- 台标显示\r\n\r\n### 优化\r\n\r\n- 重构代码\r\n- 优化界面、交互等\r\n\r\n### 删除\r\n\r\n- 移除小窗模式"
 }
