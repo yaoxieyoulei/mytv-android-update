@@ -2,7 +2,7 @@
     "tag_name": "v3.3.0",
     "assets": [
         {
-            "browser_download_url": "https://github.com/yogiczy/mytv-android-update/releases/download/tv3.3.0/mytv-android-tv-3.3.0%2B1-all-sdk21-original.apk"
+            "browser_download_url": "https://github.com/yogiczy/mytv-android-update/releases/download/tv3.3.0/mytv-android-tv-3.3.0%2B2-all-sdk21-original.apk"
         }
     ],
     "body": "### 新增\r\n\r\n- m3u直播源支持多分组，例如：group-title=\"group1;group2\"\r\n- 新增换台列表首尾循环（设置/控制）\r\n- 新增ijkPlayer播放器内核，支持av3a\r\n- 新增播放器渲染方式（SurfaceView、TextureView）\r\n\r\n### 优化\r\n\r\n- 推送服务后台运行\r\n- 点击二维码网页跳转\r\n- 切换更新通道时立即检查更新\r\n- 优化m3u直播源 x-tvg-url解析\r\n- 优化txt直播源对注释的处理\r\n- 优化分辨率tag名称\r\n- 优化频道图标覆盖逻辑，覆盖图片若无法显示切换至原图标\r\n- 优化播放器详细信息\r\n- 优化相似频道合并、直播源混合速度\r\n\r\n### 修复\r\n\r\n- 修复预约UI未刷新\r\n- 修复部分场景下闪退\r\n- 缓解ANR问题"
