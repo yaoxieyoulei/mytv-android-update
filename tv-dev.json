@@ -1,9 +1,9 @@
 {
-    "tag_name": "v3.3.3",
+    "tag_name": "v3.3.7",
     "assets": [
         {
-            "browser_download_url": "https://github.com/yogiczy/mytv-android-update/releases/download/tv3.3.3/mytv-android-tv-3.3.3-all-sdk21-original.apk"
+            "browser_download_url": "https://github.com/yogiczy/mytv-android-update/releases/download/tv3.3.7/mytv-android-tv-3.3.7-all-sdk21-original.apk"
         }
     ],
-    "body": "### 新增\r\n\r\n- media3扩展av3a\r\n- 新增应用崩溃拦截界面\r\n- 支持m3u订阅源多行地址（聚合模式）\r\n- 订阅源自定义转换js\r\n- 首页订阅源长按（清除缓存并重启）\r\n- 支持mpd DRM（仅media3）\r\n- 支持视轨、音轨、字幕切换（仅media3）\r\n\r\n### 优化\r\n\r\n- 模糊匹配epg名称\r\n- 优化epg解析逻辑，采用stream流，减少内存占用\r\n- 重构频道收藏逻辑，切换订阅源后依旧保留\r\n- 优化多线路记忆\r\n- 优化应用模块初始化顺序\r\n- 收藏界面根据订阅源分组\r\n- 时间显示背景透明\r\n- 推送订阅源后应用到当前\r\n- 支持直播源$备注，播放时自动移除\r\n- 完善配置页面\r\n- 优化选台界面样式，更加紧凑\r\n\r\n### 修复\r\n\r\n- 修复应用关闭后，设置服务未及时关闭\r\n- 修复ijkplayer起播卡顿\r\n- 修复不同flavor云端数据恢复错误\r\n- 修复fanmingming cctv2无法播放\r\n- 修复节目单/跟随直播源失效\r\n- 修复取消收藏时闪退"
+    "body": "修复切换播放器内核后按键操作失效\r\n解码失败后将自动切换软解\r\n传统选台界面列表循环（分组列表、频道列表）\r\n优化aio启动，仅当aio路径不为空时启动\r\n新增设置项（设置/播放器/跳过多帧渲染）\r\n\r\n换台时花屏等画面问题，打开 设置/播放器/停止上一媒体项\r\n换台短暂黑屏，切换播放器渲染方式，或关闭停止上一媒体项"
 }
